@@ -1,6 +1,7 @@
 package cl.ibm.pkmn;
 
 public class Pokemon implements Fabrica{
+<<<<<<< HEAD
  
 		private String nombre;
 		private int energia;
@@ -79,4 +80,37 @@ public class Pokemon implements Fabrica{
 	
 	}
 	
+=======
+	
+	public class pokemon
+	{
+		
+		public String nombre;
+		public int energia;
+		public Habilidad habilidades;
+		public Tipo tipo;
+	}
+		
+	
+
+	@Override
+	public void crearcaterpie() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void crearsquirtle() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void crearcharmander() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+>>>>>>> 4ff053488c1a44fe688ceeb11fc2a7a99d6d4907
 }
