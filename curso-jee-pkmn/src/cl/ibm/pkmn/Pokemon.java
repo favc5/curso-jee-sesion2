@@ -1,5 +1,7 @@
 package cl.ibm.pkmn;
 
+import com.sun.org.apache.xalan.internal.xsltc.compiler.util.CompareGenerator;
+
 public class Pokemon implements Fabrica{
  
 		private String nombre;
@@ -67,15 +69,21 @@ public class Pokemon implements Fabrica{
 
 
 
-	public void crearcaterpie() {
-		
+	public void crearcaterpie(String poke) {
+		if(poke == "charmander"){
+			this.nombre= "charmander";
+			
+		}
+		else{
+			
+		}
 	}
 	
-	public void crearsquirtle() {
+	public void crearsquirtle(String poke) {
 		
 	}
 
-	public void crearcharmander() {
+	public void crearcharmander(String poke) {
 	
 	}
 	

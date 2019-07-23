@@ -3,13 +3,13 @@ package cl.ibm.pkmn;
 public class Tipo extends Pokemon {
 
 	protected String tipos;
-	private float factorDaño;
+	private float factorDano;
 	private String debilidad;
 	
-	public Tipo(String nombre, int energia, Habilidad habilidades, Tipo tipo, String tipos, float factorDaño, String debilidad) {
+	public Tipo(String nombre, int energia, Habilidad habilidades, Tipo tipo, String tipos, float factorDano, String debilidad) {
 		super(nombre, energia, habilidades, tipo);
 		this.tipos=tipos;
-		this.factorDaño=factorDaño;
+		this.factorDano=factorDano;
 		this.debilidad= debilidad;
 		
 	}
@@ -23,11 +23,11 @@ public class Tipo extends Pokemon {
 	}
 
 	public float getFactorDaño() {
-		return factorDaño;
+		return factorDano;
 	}
 
-	public void setFactorDaño(float factorDaño) {
-		this.factorDaño = factorDaño;
+	public void setFactorDaño(float factorDano) {
+		this.factorDano = factorDano;
 	}
 
 	public String getDebilidad() {

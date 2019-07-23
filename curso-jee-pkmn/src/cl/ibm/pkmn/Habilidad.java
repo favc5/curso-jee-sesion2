@@ -3,20 +3,19 @@ package cl.ibm.pkmn;
 public class Habilidad extends Pokemon {
 	
 	public String NombreHabilidad;
-	public int PuntosdeDaño[];
+	public int PuntosdeDano[];
 
-<<<<<<< HEAD
 	public Habilidad(String nombre, int energia, Habilidad habilidades, Tipo tipo) {
 		super(nombre, energia, habilidades, tipo);
 		// TODO Auto-generated constructor stub
 	}
 
-=======
+
 	public Habilidad(String nombre, int energia, Habilidad habilidades, Tipo tipo, String nombreHabilidad,
 			int[] puntosdeDaño) {
 		super(nombre, energia, habilidades, tipo);
 		NombreHabilidad = nombreHabilidad;
-		PuntosdeDaño = puntosdeDaño;
+		PuntosdeDano = puntosdeDaño;
 	}
 
 	public String getNombreHabilidad() {
@@ -27,14 +26,14 @@ public class Habilidad extends Pokemon {
 		NombreHabilidad = nombreHabilidad;
 	}
 
-	public int[] getPuntosdeDaño() {
-		return PuntosdeDaño;
+	public int[] getPuntosdeDano() {
+		return PuntosdeDano;
 	}
 
-	public void setPuntosdeDaño(int[] puntosdeDaño) {
-		PuntosdeDaño = puntosdeDaño;
+	public void setPuntosdeDano(int[] puntosdeDaño) {
+		PuntosdeDano = puntosdeDaño;
 	}
 	
 	
->>>>>>> f44d47046a277e1ecb7f94b02ed4e8081e798803
+
 }
