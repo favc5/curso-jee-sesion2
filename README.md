@@ -30,3 +30,7 @@ Para la batalla los pokemons comienzan con 100% de vida (la vida es un numero al
 
 Finalmente, para crear estos pokemons definidos se implementa una clase Fabrica la cual contiene los metodos **crearcaterpie()**, **crearsquirtle()**, **crearcharmander()**.
 
+experiencias del día 23/07
+
+Hoy aprendimos a utilizar GIT, aunque nos costó al principio, luego de algunos intentos logramos dominarlo y poder usarlo para desarrollar. Empezamos el proyecto reflejando el diagrama anteriormente hecho, y aunque intentamos ser lo más fiel posible al diagrama debimos realizar algunos cambios al momento de programar para poder adaptar las ideas e implementarlas.
+
