@@ -9,9 +9,9 @@ public class Habilidad {
 	public List<Integer> puntosdeDano;
 
 	
-	public Habilidad(String nombreHabilidad, List<Integer> puntosdeDaño) {
+	public Habilidad(String nombreHabilidad, List<Integer> puntosdeDano) {
 		this.nombreHabilidad = nombreHabilidad;
-		this.puntosdeDano = puntosdeDaño;
+		this.puntosdeDano = puntosdeDano;
 	}
 
 	public String getNombreHabilidad() {
