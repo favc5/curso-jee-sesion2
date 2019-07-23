@@ -1,6 +1,8 @@
 package cl.ibm.pkmn;
 
 public interface Fabrica {
-void sas();
+public void crearcaterpie();
+public void crearsquirtle();
+public void crearcharmander();
 	
 }
