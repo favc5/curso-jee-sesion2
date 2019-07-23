@@ -2,14 +2,14 @@ package cl.ibm.pkmn;
 
 public class Pokemon implements Fabrica{
 	
-	public pokemon
+	public class pokemon
 	{
 		
 		public String nombre;
 		public int energia;
 		public Habilidad habilidades;
 		public Tipo tipo;
-		
+	}
 		
 	
 
@@ -30,6 +30,6 @@ public class Pokemon implements Fabrica{
 		// TODO Auto-generated method stub
 		
 	}
-	}
->>>>>>> 4066b67350932826220ba004961c0f0ff24ea4f8
+	
+
 }
