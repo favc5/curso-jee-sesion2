@@ -5,8 +5,10 @@ public class Pokemon implements Fabrica{
 	public pokemon
 	{
 		public String nombre;
-		public int vida;
-		public 
+		public int energia;
+		public Habilidad habilidades;
+		public Tipo tipo;
+		
 		
 	}
 }
