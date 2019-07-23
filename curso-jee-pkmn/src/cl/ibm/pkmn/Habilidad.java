@@ -1,37 +1,34 @@
 package cl.ibm.pkmn;
 
-public class Habilidad extends Pokemon {
+import java.util.Arrays;
+import java.util.List;
+
+public class Habilidad {
 	
-	public String NombreHabilidad;
-	public int PuntosdeDano[];
+	public String nombreHabilidad;
+	public List<Integer> puntosdeDano;
 
-	public Habilidad(String nombre, int energia, Habilidad habilidades, Tipo tipo) {
-		super(nombre, energia, habilidades, tipo);
-		// TODO Auto-generated constructor stub
-	}
-
-
-	public Habilidad(String nombre, int energia, Habilidad habilidades, Tipo tipo, String nombreHabilidad,
-			int[] puntosdeDaño) {
-		super(nombre, energia, habilidades, tipo);
-		NombreHabilidad = nombreHabilidad;
-		PuntosdeDano = puntosdeDaño;
+	
+	public Habilidad(String nombreHabilidad, List<Integer> puntosdeDaño) {
+		this.nombreHabilidad = nombreHabilidad;
+		this.puntosdeDano = puntosdeDaño;
 	}
 
 	public String getNombreHabilidad() {
-		return NombreHabilidad;
+		return nombreHabilidad;
 	}
 
 	public void setNombreHabilidad(String nombreHabilidad) {
-		NombreHabilidad = nombreHabilidad;
+		this.nombreHabilidad = nombreHabilidad;
 	}
 
-	public int[] getPuntosdeDano() {
-		return PuntosdeDano;
+	public List<Integer> getPuntosdeDano() {
+		return puntosdeDano;
 	}
 
-	public void setPuntosdeDano(int[] puntosdeDaño) {
-		PuntosdeDano = puntosdeDaño;
+	public void setPuntosdeDano(List<Integer> puntosdeDano) {
+		List<Integer> ptsdano = Arrays.asList(10, 5, 10, 10);
+		this.puntosdeDano = ptsdano;
 	}
 	
 	
